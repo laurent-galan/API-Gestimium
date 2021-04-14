@@ -1,13 +1,132 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.unsplash.com/photo-1546593064-053d21199be1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1268&q=80");
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+form div {
+  margin-top: 20px;
+  margin: 20px;
+}
+
+.MuiButton-containedPrimary svg {
+  padding-right: 10px;
+}
+
+.MuiButtonBase-root {
+  margin-right: 10px;
+}
+
+.presentationB {
+  font-weight: 900;
+}
+.paper {
+  height: 200px;
+  width: 90%;
+  border-radius: 80%;
+}
+
+.detail {
+  background-color: rgb(106, 214, 241);
+  margin-top: 20px;
+  padding: 5%;
+}
+
+.stockcard {
+  background-color: #19babdad;
+  border-radius: 7%;
+}
+
+.prepacard {
+  background-color: #107fc967;
+  border-radius: 7%;
+}
+
+.ventecard {
+  background-color: #30e162a1;
+  border-radius: 7%;
+}
+
+.impotcard {
+  background-color: #ff4e2ab0;
+  border-radius: 7%;
+}
+
+.chargecard {
+  background-color: #ffdd1fad;
+  border-radius: 7%;
+}
+
+.pertecard {
+  background-color: #ff43d0af;
+  border-radius: 7%;
+}
+
+/* .calendar {
+  background-color: white;
+}
+
+.titleAdd {
+  margin-bottom: 5%;
+} */
+.input {
+  margin: 10px;
+}
+
+.Progress_Seek {
+  height: 3px;
+  background-color: #eeee;
+  margin: 24px;
+}
+
+.formcard {
+  color: white;
+}
+
+.middle {
+  text-align: center;
+}
+
+.submitButton {
+  text-align: center;
+}
+
+.CardBuyDetail {
+  background-color: #19babd80;
 }
